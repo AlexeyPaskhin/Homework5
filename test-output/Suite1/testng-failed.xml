@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <parameter name="browser" value="1"/>
+  <test name="test1(failed)">
+    <parameter name="browser" value="1"/>
+    <classes>
+      <class name="TestCode">
+        <methods>
+          <include name="point1_2"/>
+          <include name="restOfPoints" invocation-numbers="1 2"/>
+          <include name="launching"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCode -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

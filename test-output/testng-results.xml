@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="317395" started-at="2016-12-26T01:07:04Z" finished-at="2016-12-26T01:12:21Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="317395" started-at="2016-12-26T01:07:04Z" finished-at="2016-12-26T01:12:21Z">
+      <class name="TestCode">
+        <test-method status="PASS" signature="launching(int)[pri:0, instance:TestCode@c818063]" name="launching" is-config="true" duration-ms="112738" started-at="2016-12-26T03:07:04Z" finished-at="2016-12-26T03:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launching -->
+        <test-method status="PASS" signature="point1_2()[pri:0, instance:TestCode@c818063]" name="point1_2" duration-ms="46594" started-at="2016-12-26T03:08:57Z" finished-at="2016-12-26T03:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- point1_2 -->
+        <test-method status="PASS" signature="restOfPoints(java.lang.String)[pri:0, instance:TestCode@c818063]" name="restOfPoints" duration-ms="97615" started-at="2016-12-26T03:09:43Z" data-provider="queries" depends-on-methods="TestCode.point1_2" finished-at="2016-12-26T03:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restOfPoints -->
+        <test-method status="PASS" signature="restOfPoints(java.lang.String)[pri:0, instance:TestCode@c818063]" name="restOfPoints" duration-ms="25969" started-at="2016-12-26T03:11:21Z" data-provider="queries" depends-on-methods="TestCode.point1_2" finished-at="2016-12-26T03:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restOfPoints -->
+        <test-method status="PASS" signature="restOfPoints(java.lang.String)[pri:0, instance:TestCode@c818063]" name="restOfPoints" duration-ms="20342" started-at="2016-12-26T03:11:47Z" data-provider="queries" depends-on-methods="TestCode.point1_2" finished-at="2016-12-26T03:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automatio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restOfPoints -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCode@c818063]" name="tearDown" is-config="true" duration-ms="14036" started-at="2016-12-26T03:12:07Z" finished-at="2016-12-26T03:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCode -->
+    </test> <!-- test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
